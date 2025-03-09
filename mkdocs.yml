@@ -1,5 +1,6 @@
 site_name: My Docs
 site_url: https://mydomain.org/mysite
+
 theme:
   name: material
   features:
@@ -8,7 +9,29 @@ theme:
     - navigation.instant.preview
     - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+     # - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
+  - tags
+
 nav:
   - Home: index.md
-  - Eth Tele Server: Eth Tele Server Configuration.md
+  - Eth Tele Server: eth-tele-server-configuration.md
+  - Module: module-codes.md
+  - Installation-and-setup: 
+    - Environment-Configuration: Installation-and-setup/Environment-Configuration.md
+    - Prerequisites: Installation-and-setup/Prerequisites.md
+    - Setup-Guide: Installation-and-setup/Setup-Guide.md
+    
+
+
+
 

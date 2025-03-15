@@ -1,5 +1,5 @@
 site_name: UNOPS Exam Software Documentation
-site_url: https://EAsrat1.github.io/UNOPS-Exam-Software/
+site_url: https://EAsrat1.github.io/UNOPS-MoE-Exam-Software-Doc/
 
 theme:
   name: material
@@ -30,7 +30,7 @@ nav:
     - Environment-Configuration: Installation-and-setup/Environment-Configuration.md
     - Prerequisites: Installation-and-setup/Prerequisites.md
     - Setup-Guide: Installation-and-setup/Setup-Guide.md
-site_url: https://easrat1.github.io/UNOPS-Exam-Software/
+site_url: https://easrat1.github.io/UNOPS-MoE-Exam-Software-Doc/
 name: Deploy MkDocs Site to GitHub Pages
 
 on:
